@@ -1,0 +1,11 @@
+1: Finne case
+	- Othello
+	- Rutenett 8x8 
+	- Tom / Hvit / Svart
+	- Legge annenhver gang
+	- Kan bare legge inntil andre brikker
+2: Lage modell i JavaScript
+3: Oversette til C# - model
+4: Vise brettet - view
+5: Objektorientere - controller
+6: Enhetstesting
