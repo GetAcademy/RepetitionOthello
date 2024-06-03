@@ -1,6 +1,6 @@
 const board = [
-    { row: 2, col: 'h', content: 'white' },
-    { row: 3, col: 'e', content: 'black' },
+    { row: 2, col: 'h', color: 'white' },
+    { row: 3, col: 'e', color: 'black' },
 ];
 
 //const board1 = '  hss';
