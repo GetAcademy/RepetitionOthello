@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plan", "plan", "{729DC49E-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Othello", "Othello\Othello.csproj", "{AF803545-5E93-4BA5-93A6-2069DAA1F592}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Othello.Test", "Othello.Test\Othello.Test.csproj", "{60353EE9-8284-446F-A4B8-80F54BA9885A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{AF803545-5E93-4BA5-93A6-2069DAA1F592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF803545-5E93-4BA5-93A6-2069DAA1F592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF803545-5E93-4BA5-93A6-2069DAA1F592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60353EE9-8284-446F-A4B8-80F54BA9885A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60353EE9-8284-446F-A4B8-80F54BA9885A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60353EE9-8284-446F-A4B8-80F54BA9885A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60353EE9-8284-446F-A4B8-80F54BA9885A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

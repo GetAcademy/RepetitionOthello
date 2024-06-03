@@ -18,5 +18,13 @@
             Console.SetCursorPosition(_col * 2 + 1, _row);
             Console.Write(_color == Color.White ? 'h' : 's');
         }
+
+        public void AddToBoard(char[] chars)
+        {
+            var rowIndex = _row - 1;
+            var colIndex = _col - 1;
+            var index = rowIndex * 8 + colIndex;
+            chars[index] = _color == Color.White ? 'h' : 's';
+        }
     }
 }

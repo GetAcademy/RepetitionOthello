@@ -1,6 +1,6 @@
 ﻿namespace Othello
 {
-    internal class Game
+    public class Game
     {
         private List<Piece> _pieces;
 
@@ -13,6 +13,21 @@
             _pieces.Add(new Piece(Color.White, 5, 'e'));
         }
 
+        public void AddPiece(Color color, int row, char col)
+        {
+            _pieces.Add(new Piece(color, row, col));
+        }
+
+        public string GetBoard()
+        {
+            var chars = "".PadRight(64, ' ').ToCharArray();
+            foreach (var piece in _pieces)
+            {
+                piece.AddToBoard(chars);
+            }
+            return new string(chars);
+        }
+
         public void Show()
         {
             ShowBoard();
@@ -20,7 +35,7 @@
             {
                 piece.Show();
             }
-            Console.SetCursorPosition(1,12);
+            Console.SetCursorPosition(1, 12);
         }
 
         private static void ShowBoard()

@@ -1,6 +1,6 @@
 ﻿namespace Othello
 {
-    enum Color
+    public enum Color
     {
         White,
         Black,
